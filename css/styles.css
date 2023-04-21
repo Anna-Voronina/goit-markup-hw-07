@@ -784,7 +784,8 @@ body {
   gap: 16px;
 }
 
-.footer-social-link {
+.footer-social-link,
+.menu-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -798,11 +799,14 @@ body {
 }
 
 .footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social-link:focus,
+.menu-social-link:hover,
+.menu-social-link:focus {
   background-color: var(--secondary-hover-color);
 }
 
-.footer-social-icon {
+.footer-social-icon,
+.menu-social-icon {
   fill: currentColor;
 }
 
